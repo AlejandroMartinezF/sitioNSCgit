@@ -1,0 +1,52 @@
+.home-carousel {
+  margin-top: 88px;
+
+  >#carouselExampleIndicatorsHome {
+
+    >.carousel-indicators {
+      position: absolute;
+      z-index: 8;
+
+      >li {
+        background-color: transparent;
+        border: 1px solid $white-color;
+        border-radius: 20px;
+        height: 16px;
+        width: 16px;
+      }
+
+      >li.active {
+        background-color: $white-color;
+      }
+    }
+  }
+
+  .carousel-inner.home {
+
+    .content {
+      height: 500px;
+
+      &.-a {
+        background-image: url('../../img/hero-home.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+      }
+
+      &.-b {
+        background-image: url('../../img/hero-home-b.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+      }
+
+      >.textWrapp {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 20px;
+      }
+    }
+  }
+}

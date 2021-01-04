@@ -1,0 +1,18 @@
+.video { 
+
+  
+  &.-h-100 {
+    >iframe {
+      height: 440px;
+    }
+  } 
+
+  >.title {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  >.content {
+    font-size: 14px;
+  }
+}

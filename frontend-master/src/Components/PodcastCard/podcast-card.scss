@@ -1,0 +1,29 @@
+
+.podcast-card {
+  background-color: $white-color;
+  padding: 0px !important;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.18);
+
+  &.-line{
+    border-bottom: 4px solid $primary-color;
+  } 
+
+  >p,
+  a {
+    padding: 10px 20px;
+  }
+
+  .link {
+    padding: 10px 0px 20px 0px;
+  } 
+
+  >img {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  >.date {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}

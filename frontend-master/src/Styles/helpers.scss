@@ -1,0 +1,101 @@
+// MARGIN
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-170 {
+  margin-top: 130px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.my-100 {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.my-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mx-18 {
+  margin-right: 18px;
+  margin-left: 18px;
+}
+
+.mx-30 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+// PADDING
+.py-50 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.px-5 {
+  padding: 0px 5px;
+}
+
+
+// COLOR 
+.w-color {
+  color: $white-color !important;
+}
+
+.s-color {
+  color: $secondary-color !important;
+}
+
+.bg-secondary {
+  background-color: $primary-color !important;
+}
+
+.bg-light-gray {
+  background-color: $light-gray-color;
+}
+
+.font-s {
+  font-size: 14px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.c-white {
+  color: $white-color;
+}

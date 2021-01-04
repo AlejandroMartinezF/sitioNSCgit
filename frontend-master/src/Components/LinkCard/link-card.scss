@@ -1,0 +1,45 @@
+.link-card {
+
+  @include media-breakpoint-up (sm) {
+    height: 160px;
+    padding: 20px 10px;
+    margin: 0px 10px 26px 10px;
+  }
+
+  height: 150px;
+  padding: 10px 10px;
+  background-color: $white-color;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  margin: 0px 10px 26px 10px;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  >.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+      text-decoration: none !important;
+      color: $secondary-color;
+    }
+
+    >.text {
+      margin-top: 25px;
+      color: $primary-color;
+      font-size: 16px;
+    }
+
+    >.fas {
+      font-size: 18px;
+    }
+
+    >.image {
+      width: 100%;
+    }
+  }
+}

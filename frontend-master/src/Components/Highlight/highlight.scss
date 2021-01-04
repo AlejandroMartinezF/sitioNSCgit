@@ -1,0 +1,10 @@
+@import '../../Styles/varables.scss';
+
+.highlight-content {
+  background-color: $bon-jour;
+
+  >.textInfo {
+    padding: 50px 0;
+    width: 50%;
+  }
+}

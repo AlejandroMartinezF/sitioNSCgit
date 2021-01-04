@@ -1,0 +1,50 @@
+@import '../../Styles/varables.scss';
+
+.navbar {
+  backdrop-filter: blur(20px);
+  background: rgba(18, 29, 26, .9);
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+
+  >.navbar-toggler {
+    border: none;
+
+    >.navbar-toggler-icon {
+      background-image: url('../../img/hamburguer.svg');
+    }
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: $white-color !important;
+  }
+  
+  .dropdown {
+
+    .dropdown-toggle::after {
+      margin-left: 10px;
+    }
+  .dropdown-item {
+    color: $primary-dark-color;
+    background-color: transparent;
+
+      &:hover {
+        background-color: $primary-light-color;
+      }
+    }
+  }
+
+  >.collapse.show.navbar-collapse {
+    height: 100vh;
+  }
+
+  >.collapse >.navbar-nav >.nav-item >.nav-link {
+    color: $white-color !important;
+    font-weight: bold;
+    transition: .4s ease color;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}

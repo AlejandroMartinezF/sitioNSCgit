@@ -1,0 +1,84 @@
+@import 'bootstrap/scss/_functions.scss';
+@import 'bootstrap/scss/_variables.scss';
+@import 'bootstrap/scss/_mixins.scss';
+
+.values-commitments {
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+  }
+  display: flex;
+
+  >.image {
+    @include media-breakpoint-up(lg) {
+      display: block;
+    }
+    background-size: cover;
+    background-image: url('../../img/values-commitments.jpg');
+    display: none;
+    height: auto;
+    width: 10%;
+  }
+
+  >.content {
+    background-color: $primary-color;
+    padding: 50px 20px;
+    width: 100%;
+
+    @include media-breakpoint-up(lg) {
+      width: 70%;
+    }
+
+    >.subtitle {
+      color: $white-color;
+    }
+
+    >.wrapper {
+      display: flex;
+      flex-wrap: wrap;
+
+      >.element {
+        @include media-breakpoint-up(lg) {
+          width: 50%;
+        }
+        align-items: flex-start;
+        display: flex;
+        padding: 0 10px;
+        width: 100%;
+      }
+
+      >.element >p {
+        color: $white-color;
+      }
+
+      >.element >.icon {
+        width: 40px;
+      }
+
+      >.element >.text {
+        padding: 0 10px;
+      }
+
+      >.element >.text >p {
+        color: $white-color;
+      }
+    }
+  }
+
+  >.action {
+    @include media-breakpoint-down(md) {
+      width: 100%;
+    }
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      flex-direction: column;
+    }
+    align-items: center;
+    background-image: url('../../img/compromise.jpg');
+    background-size: cover;
+    display: none;
+    height: auto;
+    justify-content: center;
+    padding: 0 10px;
+    width: 20%;
+  }
+}

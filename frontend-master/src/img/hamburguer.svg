@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="23" viewBox="0 0 25 23">
+  <defs>
+    <clipPath id="clip-Calidad_1">
+      <rect width="25" height="23"/>
+    </clipPath>
+  </defs>
+  <g id="Calidad_1" data-name="Calidad – 1" clip-path="url(#clip-Calidad_1)">
+    <rect width="25" height="23" fill="rgba(255,255,255,0)"/>
+    <rect id="Rectángulo_318" data-name="Rectángulo 318" width="25" height="5" fill="#fff"/>
+    <rect id="Rectángulo_320" data-name="Rectángulo 320" width="25" height="5" transform="translate(0 18)" fill="#fff"/>
+    <rect id="Rectángulo_319" data-name="Rectángulo 319" width="25" height="5" transform="translate(0 9)" fill="#fff"/>
+  </g>
+</svg>

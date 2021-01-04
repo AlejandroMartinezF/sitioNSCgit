@@ -1,0 +1,13 @@
+.six-detail {
+  display: flex;
+
+  >.number {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  >.content >.date {
+    font-size: 14px;
+    font-weight: lighter;
+  }
+}

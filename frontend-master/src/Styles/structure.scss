@@ -1,0 +1,52 @@
+@import '../Styles/varables.scss';
+
+.h1 {
+  @include media-breakpoint-down (md) {
+    font-size: 22px;
+  }
+
+  font-family: 'PT Serif', serif;
+  font-size: 40px;
+}
+
+.title {
+  color: $primary-color;
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+}
+
+.subtitle {
+  @include media-breakpoint-up (md) {
+    font-size: 20px;
+  }
+
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+
+  &.-bold {
+    font-weight: bold;
+  }
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: $secondary-color;
+  transition: .4s ease all;
+  width: fit-content;
+
+  &:hover {
+    color: $secondary-dark-color;
+  }
+}
+
+body {
+  font-size: 16px;
+}
+
+.simpleImg {
+  position: relative;
+  width: 100%;
+}

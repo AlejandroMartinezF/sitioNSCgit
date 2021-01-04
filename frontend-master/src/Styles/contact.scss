@@ -1,0 +1,49 @@
+form {
+  background-color: $primary-color;
+
+  >.form-group {
+
+    >input,
+    textarea {
+      color: $white-color;
+
+      &:focus {
+        background-color: transparent;
+        color: $white-color;
+      }
+    }
+  }
+
+  @include media-breakpoint-up (md) {
+    padding: 80px 80px;
+  }
+  padding: 50px 30px;
+  
+  >.btn {
+    display: flex;
+    justify-content: center;
+  } 
+
+  Label {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    color: $white-color;
+  }
+
+  .form-control {
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 2px solid $white-color;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+}
+
+
+.map {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  right: 1px;
+}

@@ -1,0 +1,75 @@
+@import 'bootstrap/scss/_functions.scss';
+@import 'bootstrap/scss/_variables.scss';
+@import 'bootstrap/scss/_mixins.scss';
+
+.hero-page {
+  margin-top: 88px;
+  @include media-breakpoint-up(lg) {
+    height: 500px;
+  }
+
+  background-size: cover;
+  height: 700px;
+  position: relative;
+  width: 100%;
+
+  img {
+    opacity: 0%;
+  }
+
+  &.-home {
+    background-image: url('../../img/hero-home.jpg');
+  }
+
+  &.-services {
+    background-image: url('../../img/hero-services.jpg');
+  }
+
+  &.-news {
+    background-image: url('../../img/hero-news.jpg');
+  }
+
+  &.-video {
+    background-image: url('../../img/hero-news-video.jpg');
+  }
+
+  &.-links {
+    background-image: url('../../img/hero-links.jpg');
+  }
+
+  &.-about {
+    background-image: url('../../img/hero-about.jpg');
+  }
+
+  &.-faq {
+    background-image: url('../../img/hero-faq.jpg');
+  }
+
+  >.inner {
+    @include media-breakpoint-up(lg) {
+      padding: 0 100px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 10px;
+    position: absolute;
+
+    .title {
+      color: $secondary-color;
+      font-family: 'PT Serif', serif;
+      font-size: 30px;
+    }
+
+    .content {
+
+      @include media-breakpoint-up (md) {
+        font-size: 40px;
+      }
+      color: $white-color;
+      font-family: 'PT Serif', serif;
+      font-size: 30px;
+    }
+  }
+}

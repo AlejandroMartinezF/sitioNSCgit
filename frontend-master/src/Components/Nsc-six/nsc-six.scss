@@ -1,0 +1,20 @@
+.nsc-six {
+
+  >.carousel-indicators {
+    margin-top: 30px;
+    position: relative;
+    z-index: 8;
+
+    >li {
+      background-color: transparent;
+      border: 1px solid $secondary-color;
+      border-radius: 20px;
+      height: 16px;
+      width: 16px;
+    }
+
+    >li.active {
+      background-color: $secondary-color;
+    }
+  }
+}

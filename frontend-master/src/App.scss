@@ -1,0 +1,33 @@
+// COMPONENTS
+@import './Components/Header/header';
+@import './Components/Hero/hero';
+@import './Components/Highlight/highlight';
+@import './Components/Action-image/action-image';
+@import './Components/Nsc-six-detail/nsc-six-detail';
+@import './Components/Nsc-six/nsc-six';
+@import './Components/NoticeCard/notice-card';
+@import './Components/Footer/foter';
+@import './Components/Video-card/video-card';
+@import './Components/ValuesCommitments/values-commitments';
+@import './Components/TextImage/text-image';
+@import './Components/Executive-preview/excecutive-preview';
+@import './Components/LinkCard/link-card';
+@import './Components/PodcastCard/podcast-card';
+@import './Components/Tab-NewsPodcast/tab-newspodcast';
+@import './Components/Carousel/Carousel';
+
+//PAGES
+@import './Styles/contact';
+@import './Styles/faq';
+
+// STYLES
+@import './Styles/varables';
+@import './Styles/structure';
+@import './Styles/buttons';
+@import './Styles/helpers';
+
+
+// BOOTSTRAP
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
+@import 'bootstrap/scss/_mixins';
