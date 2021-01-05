@@ -1,9 +1,10 @@
 .nav-tabs {
 
+  align-items: flex-end;
+  border: none;
   display: flex;
   justify-content: space-around;
-  border: none;
-  align-items: flex-end;
+  width: 100%;
 
   .nav-item {
     width: 50%;

@@ -41,7 +41,7 @@ class News extends Component {
             </div>
 
             <div className="row my-50">
-              <div className="col-12 d-flex">
+              <div className="col-12">
                 <TabNewsPodcast></TabNewsPodcast>
               </div>
             </div>

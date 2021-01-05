@@ -11,7 +11,7 @@ class ActionImage extends Component {
     return (
       <div className={`action-image ${this.props.customClass}`}>
         <div className="inner">
-          <p className="subtitle">{this.props.title}</p>
+          <p className="subtitle text-center">{this.props.title}</p>
           <p className="content w-color">{this.props.content}</p>
           <a href={this.props.link}><button className="btn -outlineWhite">Leer más</button></a>
         </div>

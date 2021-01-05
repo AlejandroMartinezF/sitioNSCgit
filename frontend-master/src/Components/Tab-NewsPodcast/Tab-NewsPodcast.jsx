@@ -55,7 +55,7 @@ class News extends Component {
 
   render () {
     return (
-      <div>
+      <React.Fragment>
         <Nav tabs>
           <NavItem>
             <NavLink
@@ -80,9 +80,8 @@ class News extends Component {
               { 
                 this.state.financiero_news.slice(0, 3).map(news => {
                   return(
-                    <div className="col-lg-4 col-md-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-12 d-flex mb-20">
                       <NoticeCard
-                        customClass=" mb-20"
                         image={news.image}
                         date={news.date}
                         content={news.headline}
@@ -94,9 +93,8 @@ class News extends Component {
               {
                 this.state.reuters_news.slice(0, 3).map(news => {
                   return (
-                    <div className="col-lg-4 col-md-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-12 d-flex mb-20">
                       <NoticeCard
-                        customClass=" mb-20"
                         image={news.image}
                         date={news.date}
                         content={news.headline}
@@ -108,9 +106,8 @@ class News extends Component {
               {
                 this.state.financiero_news.slice(3, this.state.financiero_news.length).map(news => {
                   return (
-                    <div className="col-lg-4 col-md-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-12 d-flex mb-20">
                       <NoticeCard
-                        customClass=" mb-20"
                         image={news.image}
                         date={news.date}
                         content={news.headline}
@@ -122,9 +119,8 @@ class News extends Component {
               {
                 this.state.reuters_news.slice(3, this.state.reuters_news.length).map(news => {
                   return (
-                    <div className="col-lg-4 col-md-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-12 d-flex mb-20">
                       <NoticeCard
-                        customClass=" mb-20"
                         image={news.image}
                         date={news.date}
                         content={news.headline}
@@ -183,7 +179,7 @@ class News extends Component {
             </div>
           </TabPane>
         </TabContent>
-      </div>
+      </React.Fragment>
     );
   }
 }

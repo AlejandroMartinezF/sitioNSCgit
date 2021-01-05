@@ -1,11 +1,16 @@
 .text-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
 
   &.-investment {
-    background-repeat: no-repeat;
-    background-size: cover;
     background-image: url('../../img/hero-faq.jpg');
-    height: auto;
-    width: 100%;
+  }
+
+  &.-docs {
+    background-image: url('../../img/attachment-documents.jpg');
   }
 
   >.inner {

@@ -88,7 +88,7 @@ class Home extends Component {
                   customClass="mb-30"
                   img={ActionB}
                   title="Gestión de inversiones"
-                  link="/services"
+                  link="/services#management"
                 />
               </div>
 
@@ -97,7 +97,7 @@ class Home extends Component {
                   customClass="mb-30"
                   img={ActionA}
                   title="Asesoría de inversiones"
-                  link="/services"
+                  link="/services#advisory"
                 />
               </div>
 
@@ -106,7 +106,7 @@ class Home extends Component {
                   customClass="mb-30"
                   img={ActionC}
                   title="Family Office"
-                  link="/services"
+                  link="/services#family-office"
                 />
               </div>
 
@@ -115,7 +115,7 @@ class Home extends Component {
                   customClass="mb-30"
                   img={ActionE}
                   title="Inversiones en Capital privado"
-                  link="/services"
+                  link="/services#investment"
                 />
               </div>
 
@@ -124,7 +124,7 @@ class Home extends Component {
                   customClass="mb-30"
                   img={ActionF}
                   title="Recepción y transmisión de órdenes."
-                  link="/services"
+                  link="/services#reception"
                 />
               </div>
             </div>
@@ -135,7 +135,7 @@ class Home extends Component {
               <div className="text-image">
               </div>
               <TextImage
-                customClass="mb-30"
+                customClass="-investment mb-30"
                 title="¿Qué nos preguntan?"
                 content="Conoce las preguntas y respuestas más frecuentes"
                 link="/FAQ"
@@ -227,6 +227,19 @@ class Home extends Component {
                     <a className="ml-auto mr-auto" href="/media"><button className="btn -primary">Ver más</button></a>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <TextImage
+                  customClass="-docs my-100"
+                  title="Documentos adjuntos"
+                  content="Accede a la Guía de Servicios y al Marco General de Actuación"
+                  link="/FAQ"
+                />
               </div>
             </div>
           </div>

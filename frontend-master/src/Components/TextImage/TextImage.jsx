@@ -7,7 +7,7 @@ class TextImage extends Component {
 
   render() {
     return (
-      <div className={`text-image -investment ${this.props.customClass}`}>
+      <div className={`text-image ${this.props.customClass}`}>
         <div className="inner">
           <p className="subtitle text-center">{this.props.title}</p>
           <p className="content w-color">{this.props.content}</p>

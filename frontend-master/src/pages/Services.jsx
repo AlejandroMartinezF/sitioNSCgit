@@ -76,6 +76,8 @@ class Home extends Component {
           </div>
 
           <div className="container mt-100">
+
+            <a id="management" className="scroll"></a>
             <div className="row">
               <div className="col-12 col-lg-6 p-0">
                 <img className="simpleImg d-none d-lg-block d-none d-lg-block" src={Management} alt="aprovando" />
@@ -89,6 +91,8 @@ class Home extends Component {
                 <button className="btn -outlineDark mb-30" onClick={this.toggleInvestment}>Leer más</button>
               </div>
             </div>
+
+            <a id="advisory" className="scroll"></a>
             <div className="row d-flex flex-row-reverse">
               <div className="col-12 col-lg-6 p-0">
                 <img className="simpleImg d-none d-lg-block" src={Advisory} alt="platica" />
@@ -102,6 +106,8 @@ class Home extends Component {
                 <button className="btn -outlineDark mb-30" onClick={this.toggleAdvisory}>Leer más</button>
               </div>
             </div>
+
+            <a id="family-office" className="scroll"></a>
             <div className="row">
               <div className="col-12 col-lg-6 p-0">
                 <img className="simpleImg d-none d-lg-block" src={Family} alt="platica" />
@@ -115,19 +121,23 @@ class Home extends Component {
                 <button className="btn -outlineDark mb-30" onClick={this.toggleFamily}>Leer más</button>
               </div>
             </div>
+
+            <a id="investment" className="scroll"></a>
             <div className="row d-flex flex-row-reverse">
               <div className="col-12 col-lg-6 p-0">
                 <img className="simpleImg d-none d-lg-block" src={Investment} alt="mostrando" />
               </div>
               <div className="col-12 col-lg-6 d-flex flex-column justify-content-center ">
                 <p className="title">Inversiones a capital privado.</p>
-                <p className="font-s">Planeación integral del patrimonio, tomando en cuenta tanto aspectos financieros como no financieros.</p>
+                <p className="font-s">Buscamos y acercamos las mejores oportunidades de bienes raíces, private equity, venture capital y deuda privada</p>
                 <Collapse isOpen={this.state.isOpenCapital}>
-                  <p className="font-s">Buscamos y acercamos las mejores oportunidades de bienes raíces, private equity, venture capital y deuda privada (leer más) Acercamos proyectos y oportunidades de capital privado con el fin de obtener un portafolio diversificado que se beneficia de las características únicas de los mercados privados.</p>
+                  <p className="font-s">Acercamos proyectos y oportunidades de capital privado con el fin de obtener un portafolio diversificado que se beneficia de las características únicas de los mercados privados.</p>
                 </Collapse>
                 <button className="btn -outlineDark mb-30" onClick={this.toggleCapital}>Leer más</button>
               </div>
             </div>
+
+            <a id="reception" className="scroll"></a>
             <div className="row">
               <div className="col-12 col-lg-6 p-0">
                 <img className="simpleImg d-none d-lg-block" src={Reception} alt="mostrando" />

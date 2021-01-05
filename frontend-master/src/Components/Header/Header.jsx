@@ -14,7 +14,7 @@ import {
   NavbarText
 } from 'reactstrap';
 
-import Logo from '../../img/logo.svg'
+import Logo from '../../img/Logotipo.svg'
 
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +25,7 @@ const Header = (props) => {
     <div>
       <Navbar light expand="md">
         <NavbarBrand href="/home">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="Logotipo de NSC" />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
